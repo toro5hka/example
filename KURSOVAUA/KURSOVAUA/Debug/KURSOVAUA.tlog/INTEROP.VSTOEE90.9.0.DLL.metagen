@@ -1,0 +1,98 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly Interop.VSTOEE90.9.0, Version=9.0.*, Culture=Инвариантный язык (Инвариантная страна): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Interface VSTOEE90._Events: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract, Import
+Interface VSTOEE90.IActiveXWrapper: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract, Import
+  Methods:
+    GetWrappedObject(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    SetWrappedObject(Object(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Interface VSTOEE90.IInstanceMgr: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract, Import
+  Methods:
+    RegisterConnectedControl(String(In, HasFieldMarshal), Object(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    UnregisterConnectedControl(String(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    GetConnectedControl(String(In, HasFieldMarshal), Object&(Out, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Interface VSTOEE90.IHostServiceProvider: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract, Import
+  Methods:
+    GetService(Type(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    GetProperty(String(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    SetProperty(String(In, HasFieldMarshal), Object(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Interface VSTOEE90.IInstanceMgrEvents: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract, Import
+  Methods:
+    Closing(Object(HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Interface VSTOEE90.IVSTOContainerControl: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract, Import
+  Properties:
+    System.String ContainedControlAssemblyName 'get ' : 
+    System.String ContainedControlTypeName 'get ' : 
+    System.String ContainedControlAssemblyPath 'get ' : 
+    System.String ContainedControlName 'get ' : 
+    Int32 Hwnd 'get ' : 
+  Methods:
+    SetContainedControl(Object(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    IsContainedControlTypeOf(String(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    get_ContainedControlAssemblyName(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_ContainedControlTypeName(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_ContainedControlAssemblyPath(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_ContainedControlName(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    DrawPresentation(_RECTL&(In, Out), Array&(Out, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    GetInstanceMgr(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    CanTranslateAccelerator(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    AltActivationChange(Boolean(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    get_Hwnd(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+Struct VSTOEE90._RECTL: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    Int32 left : Public
+    Int32 top : Public
+    Int32 right : Public
+    Int32 bottom : Public
+Interface VSTOEE90.IVSTOWrappedControlEvents: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract, Import
+  Methods:
+    Disposing(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    ControlLosingFocus(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Interface VSTOEE90.IHostItemProvider: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract, Import
+  Methods:
+    GetHostObject(String(In, HasFieldMarshal), String(In, HasFieldMarshal), Object&(Out, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    GetHostExtender(String(In, HasFieldMarshal), String(In, HasFieldMarshal), Object&(Out, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    SetHostObjectOnExtender(String(In, HasFieldMarshal), String(In, HasFieldMarshal), Object(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Interface VSTOEE90.IForceShutdown: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract, Import
+  Methods:
+    ShutdownNow(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Interface VSTOEE90.IVSTOAccessor: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract, Import
+  Methods:
+    GetManagedClass(Object(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class VSTOEE90._ActiveXWrapperClass: AutoLayout, AnsiClass, Class, Public, Import
+  :System.__ComObject
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Interfaces:
+    VSTOEE90.IActiveXWrapper
+    VSTOEE90._ActiveXWrapper
+    VSTOEE90._Events_Event
+  Methods:
+    GetWrappedObject(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    SetWrappedObject(Object(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Interface VSTOEE90._Events_Event: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+Interface VSTOEE90._ActiveXWrapper: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract, Import
+  Interfaces:
+    VSTOEE90.IActiveXWrapper
+    VSTOEE90._Events_Event
+Class VSTOEE90.VSTOAccessorClass: AutoLayout, AnsiClass, Class, Public, Import
+  :System.__ComObject
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Interfaces:
+    VSTOEE90.IVSTOAccessor
+    VSTOEE90.VSTOAccessor
+  Methods:
+    GetManagedClass(Object(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Interface VSTOEE90.VSTOAccessor: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract, Import
+  Interfaces:
+    VSTOEE90.IVSTOAccessor
+Interface VSTOEE90.INonDestructiveDebuggee: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract, Import
+  Methods:
+    GetNonDestructiveDebugInfo(String&(Out, HasFieldMarshal), String&(Out, HasFieldMarshal), UInt32&(Out)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class VSTOEE90._Events_SinkHelper: AutoLayout, AnsiClass, Class, Public, Sealed
+  Interfaces:
+    VSTOEE90._Events
+  Fields:
+    Int32 m_dwCookie : Public

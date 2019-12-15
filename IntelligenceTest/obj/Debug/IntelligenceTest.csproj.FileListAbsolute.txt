@@ -1,0 +1,13 @@
+C:\Users\Андрей\Desktop\Курсач Литвинович\IntelligenceTest\bin\Debug\IntelligenceTest.exe.config
+C:\Users\Андрей\Desktop\Курсач Литвинович\IntelligenceTest\bin\Debug\IntelligenceTest.exe
+C:\Users\Андрей\Desktop\Курсач Литвинович\IntelligenceTest\bin\Debug\IntelligenceTest.pdb
+C:\Users\Андрей\Desktop\Курсач Литвинович\IntelligenceTest\obj\Debug\IntelligenceTest.csprojAssemblyReference.cache
+C:\Users\Андрей\Desktop\Курсач Литвинович\IntelligenceTest\obj\Debug\IntelligenceTest.authorization.resources
+C:\Users\Андрей\Desktop\Курсач Литвинович\IntelligenceTest\obj\Debug\IntelligenceTest.Properties.Resources.resources
+C:\Users\Андрей\Desktop\Курсач Литвинович\IntelligenceTest\obj\Debug\IntelligenceTest.csproj.GenerateResource.cache
+C:\Users\Андрей\Desktop\Курсач Литвинович\IntelligenceTest\obj\Debug\IntelligenceTest.csproj.CoreCompileInputs.cache
+C:\Users\Андрей\Desktop\Курсач Литвинович\IntelligenceTest\obj\Debug\IntelligenceTest.exe
+C:\Users\Андрей\Desktop\Курсач Литвинович\IntelligenceTest\obj\Debug\IntelligenceTest.pdb
+C:\Users\Андрей\Desktop\Курсач Литвинович\IntelligenceTest\obj\Debug\IntelligenceTest.AuthorizationForTheTeachers.resources
+C:\Users\Андрей\Desktop\Курсач Литвинович\IntelligenceTest\obj\Debug\IntelligenceTest.IntelligenceTestingForm.resources
+C:\Users\Андрей\Desktop\Курсач Литвинович\IntelligenceTest\obj\Debug\IntelligenceTest.Statistics.resources
